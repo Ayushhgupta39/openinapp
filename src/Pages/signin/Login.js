@@ -40,8 +40,8 @@ function Login() {
    
   }
   return (
-    <div class="grid grid-cols-2 gap-4 h-screen">
-      <div class="col-span-2 md:col-span-1 signin-svg-background flex flex-col justify-between w-full">
+    <div className="flex md:grid grid-cols-2 gap-4 h-screen">
+      <div className="col-span-2 md:col-span-1 signin-svg-background hidden md:flex flex-col justify-between w-full">
         <div>
           {" "}
           <h4 className="logo p-5 m-5 text-left">LOGO</h4>{" "}
@@ -123,9 +123,9 @@ function Login() {
             </p>
           </div>
 
-          <div className="flex flex-row mt-2 item-center signin-heads d-blocks">
+          <div className="flex flex-row mt-2 gap-2 md:gap-0 mx-2 md:mx-0 item-center signin-heads d-blocks">
             <button
-              className="social-signin-btn rounded-lg bg-white flex flex-row me-5 mt-3  py-2 px-5 margins-auto "
+              className="social-signin-btn rounded-lg bg-white flex flex-row me-5 mt-3  py-2 px-3 md:px-5 margins-auto "
               onClick={handleGooogleClick}
             >
               <svg
