@@ -1,7 +1,7 @@
 # OpeninApp Dashboard
 
 OpeninApp is a tool designed to enhance user experiences on social media platforms by ensuring that all social media links open in the intended apps. This dashboard is a pixel-perfect implementation of the high fidelity design provided, built using React.js, Tailwind CSS, and Firebase for Google authentication.
-![Login page](image.png)
+![Alt text](image-1.png)
 ![Dashboard](image-1.png)
 
 ## Features
