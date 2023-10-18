@@ -36,9 +36,7 @@ function Login() {
     });
   }
 
-  function handleAppleClick() {
-   
-  }
+  function handleAppleClick() {}
   return (
     <div className="flex md:grid grid-cols-2 gap-4 h-screen">
       <div className="col-span-2 md:col-span-1 signin-svg-background hidden md:flex flex-col justify-between w-full">
@@ -116,7 +114,7 @@ function Login() {
       </div>
       <div className="col-span-2 md:col-span-1 flex items-center  text-left sign-right">
         <div>
-          <div className="">
+          <div>
             <h4 className="pl-3 signin-header signin-heads"> Sign In</h4>
             <p className="pl-3 signin-para signin-heads mt-2 font-medium">
               Sign in to your account

@@ -371,7 +371,10 @@ function Dashboard() {
                   </svg>
                 </li>
                 <li className=" pl-4">
-                  <img src={profile} className="profile rounded-full cursor-pointer" />
+                  <img
+                    src={profile}
+                    className="profile rounded-full cursor-pointer"
+                  />
                 </li>
               </ul>
             </div>
