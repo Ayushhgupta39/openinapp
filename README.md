@@ -49,6 +49,6 @@ The application will start on http://localhost:3000.
 The project is deployed on Vercel and can be accessed at [Live Demo](https://ayush-openinapp.vercel.app/).
 
 ## Contact
-For any inquiries, please contact us at ayushgupta3902@gmail.com.
+For any inquiries, please contact at ayushgupta3902@gmail.com.
 
 ***Note***: This project is a part of a screening assignment for the position of React.js Developer Intern at OpeninApp. The implementation is based on the provided design and requirements, showcasing skills in React.js, Tailwind CSS, and Firebase authentication.
