@@ -14,8 +14,9 @@ OpeninApp is a tool designed to enhance user experiences on social media platfor
 - **Profile Functionality:** Users can manage their profiles within the dashboard, enhancing the personalized experience.
 
 - **Interactive Charts:** Interactive charts display data using dummy data fetched via Axios/Fetch. The charts provide a visual representation of essential metrics.
-![image](https://github.com/Ayushhgupta39/openinapp/assets/96309609/6f61ba41-1634-40e4-9710-becda9c1e470)
-![image](https://github.com/Ayushhgupta39/openinapp/assets/96309609/e0e400fa-bf32-44c0-9cda-bf83852e4cb1)
+
+- ![image](https://github.com/Ayushhgupta39/openinapp/assets/96309609/6f61ba41-1634-40e4-9710-becda9c1e470)
+- ![image](https://github.com/Ayushhgupta39/openinapp/assets/96309609/e0e400fa-bf32-44c0-9cda-bf83852e4cb1)
 
 
 ## How to Use
