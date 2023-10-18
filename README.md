@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# OpeninApp Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OpeninApp is a tool designed to enhance user experiences on social media platforms by ensuring that all social media links open in the intended apps. This dashboard is a pixel-perfect implementation of the high fidelity design provided, built using React.js, Tailwind CSS, and Firebase for Google authentication.
+![Login page](image.png)
+![Dashboard](image-1.png)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Google Authentication:** Users can authenticate and sign up using their Google accounts, powered by Firebase.
 
-### `npm start`
+- **Responsive Design:** The dashboard is fully responsive, ensuring a seamless experience across various devices and screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Profile Functionality:** Users can manage their profiles within the dashboard, enhancing the personalized experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive Charts:** Interactive charts display data using dummy data fetched via Axios/Fetch. The charts provide a visual representation of essential metrics.
 
-### `npm test`
+![Mobile login](image-5.png)
+![Mobile dashboard](image-4.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Use
 
-### `npm run build`
+To use this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository:**
+ ```bash
+    git clone https://github.com/Ayushhgupta39/openinapp
+    cd openinapp-dashboard
+``` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install Dependencies:**
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Set Up Firebase:**
+- Create a Firebase project and configure it in your project.
+- Enable Google authentication in the Firebase console.
+- Update the Firebase configuration in src/firebase.js.
 
-### `npm run eject`
+4. **Run the Application:**
+```npm start```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application will start on http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project is deployed on Vercel and can be accessed at [Live Demo](https://ayush-openinapp.vercel.app/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
+For any inquiries, please contact us at ayushgupta3902@gmail.com.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***Note***: This project is a part of a screening assignment for the position of React.js Developer Intern at OpeninApp. The implementation is based on the provided design and requirements, showcasing skills in React.js, Tailwind CSS, and Firebase authentication.
